@@ -18,8 +18,8 @@ const ImageRow = ({ images }: imageRow) => {
 	};
 
 	const createRowItems = (images: image[]) => {
-		return images.map(image => (
-			<div className={classes.imgCont}>
+		return images.map((image, index) => (
+			<div key={index} className={classes.imgCont}>
 				<a href={image.link}>
 					<img alt='react logo' src={image.img} className='img' />
 				</a>

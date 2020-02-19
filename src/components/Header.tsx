@@ -24,7 +24,7 @@ const Header = () => {
 			<div className={heroBody}>
 				<p className={titleText}>Joshua Anderson</p>
 				<p className={subtitleText}>
-					Developer, entrepreneur, and curious human.
+					Entrepreneur, developer, and curious human.
 				</p>
 			</div>
 		</div>
