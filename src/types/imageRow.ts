@@ -4,4 +4,5 @@ export interface imageRow {
 export interface image {
 	img: string;
 	description: string;
+	link: string;
 }

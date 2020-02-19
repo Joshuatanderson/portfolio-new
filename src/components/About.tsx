@@ -26,15 +26,18 @@ const About = () => {
 	const images: image[] = [
 		{
 			description: "IMHO, the best JS framework",
-			img: reactLogo
+			img: reactLogo,
+			link: "https://reactjs.org/"
 		},
 		{
 			description: "Javascript without insanity",
-			img: tsLogo
+			img: tsLogo,
+			link: "https://www.typescriptlang.org/"
 		},
 		{
 			description: "A simple, modern CSS framework",
-			img: bulmaLogo
+			img: bulmaLogo,
+			link: "https://bulma.io/"
 		}
 	];
 

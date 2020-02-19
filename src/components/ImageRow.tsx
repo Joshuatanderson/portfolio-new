@@ -20,7 +20,7 @@ const ImageRow = ({ images }: imageRow) => {
 	const createRowItems = (images: image[]) => {
 		return images.map(image => (
 			<div className={classes.imgCont}>
-				<a href='https://reactjs.org/'>
+				<a href={image.link}>
 					<img alt='react logo' src={image.img} className='img' />
 				</a>
 				<p>{image.description}</p>
