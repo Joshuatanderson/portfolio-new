@@ -49,7 +49,7 @@ const About = () => {
 
 	const interestImages: image[] = [
 		{
-			description: "Bookify",
+			description: "Bookify (my startup that aims to make students readers)",
 			img: bookifyLogo,
 			link: "http://bookify.co/"
 		},
